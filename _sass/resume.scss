@@ -1,0 +1,119 @@
+#resume {
+    header {
+        display: grid;
+
+        h1 {
+            grid-area: 1 / 1;
+            font-weight: normal;
+        }
+
+        nav {
+            grid-area: 1 / 2;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+
+            a {
+                margin: 0 0 0 1rem;
+                color: white;
+                text-decoration: none;
+
+                svg {
+                    width: 1rem;
+                    height: 1rem;
+                    margin-right: .5rem;
+                    fill: rgba(77, 178, 255, 1);
+                }
+            }
+        }
+    }
+
+    section {
+        margin: 2rem 0;
+
+        article {
+            margin: 3rem 1rem;
+
+            hgroup {
+                border-bottom: 1px dotted rgba(255, 255, 255, .25);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: 5em;
+    
+                h5 {
+                    margin: 0;
+                    padding: 0;
+                    font-weight: 500;
+                }
+        
+                h6 {
+                    margin: .25rem 0;
+                    padding: 0;
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                }
+            }
+        }
+
+        article.blizzard-entertainment {
+            hgroup {
+                background-image: url(/assets/Blizzard_Entertainment_Logo.svg);
+            }
+        }
+
+        article.btech {
+            hgroup {
+                background-image: url(/assets/btech_logo_inverted.png);
+            }
+        }
+
+        article.ccma {
+            hgroup {
+                background-image: url(/assets/ccma_logo.png);
+            }
+        }
+    }
+
+    section#skills {
+        display: grid;
+
+        h3 {
+            grid-area: 1 / 1 / span 1 / span 2;
+        }
+
+        dl {
+            margin: 1rem;
+        }
+
+        dl.left-column {
+            grid-column: 1;
+        }
+
+        dl.right-column {
+            grid-column: 2;
+        }
+
+        dl {
+            dt {
+                margin: 0;
+                padding: 0;
+                font-weight: 500;
+            }
+
+            dd {
+                padding: 0;
+                display: list-item;
+                list-style-type: disc;
+
+                abbr {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

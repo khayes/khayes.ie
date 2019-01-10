@@ -1,0 +1,9 @@
+---
+# This ensures Jekyll reads the file to be transformed into CSS later.
+---
+
+@import 'html';
+@import 'header';
+@import 'content';
+@import 'footer';
+@import 'resume';

@@ -1,0 +1,77 @@
+html {
+    background-color: rgba(45, 45, 45, 1);
+    font-size: 14px;
+    font-family: Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+    color: rgba(227, 227, 227, 1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+a {
+    color: rgba(77, 178, 255, 1);
+}
+
+nav.icons {
+    display: flex;
+    align-items: center;
+
+    a {
+        margin: 0 .5em 0 0;
+        padding: .5em 1em;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        border-radius: .25em;
+        color: white;
+        text-shadow: 0 .1em black;
+    
+        svg {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: .5em;
+            fill: rgba(77, 178, 255, 1);
+        }
+    }
+    a:hover {
+        text-decoration: underline;
+        text-shadow: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
+    margin-top: 1em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
