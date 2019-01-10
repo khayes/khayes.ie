@@ -26,26 +26,21 @@ permalink: /resume/
             <dd>C#</dd>
             <dd>.NET Framework, .NET Core, .NET Standard</dd>
             <dd>ASP.NET, ASP.NET Core</dd>
-            <dd><abbr title="Structured Query Language">SQL</abbr></dd>
             <dd>Lua</dd>
         </dl>
         <dl class="right-column">
             <dt>Software Delivery</dt>
-            <dd>Docker</dd>
-            <dd>Kubernetes, Helm</dd>
             <dd>Git</dd>
+            <dd>Docker, Kubernetes, Helm</dd>
             <dd>MSBuild</dd>
             <dd>Octopus Deploy</dd>
-            <dd>Jenkins</dd>
         </dl>
         <dl class="left-column">
             <dt>Backend Skills</dt>
             <dd><abbr title="Windows Communication Foundation">WCF</abbr></dd>
             <dd>Windows Server, IIS</dd>
-            <dd>SQL Server</dd>
+            <dd>SQL Server, MySQL, Couchbase</dd>
             <dd>RabbitMQ</dd>
-            <dd>MySQL</dd>          
-            <dd>Couchbase</dd>
         </dl>
         <dl class="right-column">
             <dt>Frontend Skills</dt>
