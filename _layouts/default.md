@@ -23,15 +23,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
         <h1>Kieran Hayes</h1>
         <h2 class="subtitle">Software Engineer</h2>
       </hgroup>
-      <nav>
-        <!--
-        <a href="/blog/">
-          <svg><use href="{{ '/assets/minima-social-icons.svg#blog' | relative_url }}"></use></svg> Blog
-          </a>
-        <a href="/projects/">
-          <svg><use href="{{ '/assets/minima-social-icons.svg#projects' | relative_url }}"></use></svg> Projects
-        </a>
-        -->
+      <nav class="icons">
         <a href="/about/">
           <svg><use href="{{ '/assets/minima-social-icons.svg#about' | relative_url }}"></use></svg> About
         </a>
@@ -42,8 +34,8 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
     </header>
     <main id="content">{{ content }}</main>
     <footer id="footer">
-      <nav>
-        <a href="https://github.com/khayes/" title="GitHub" class="github" target="_blank">
+      <nav class="icons">
+        <a href="https://github.com/khayes/" title="GitHub" target="_blank">
           <svg><use href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> GitHub
         </a>
         <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank">

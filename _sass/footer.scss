@@ -11,30 +11,6 @@
 
     nav {
         grid-area: 1 / 2;
-        display: flex;
-        align-items: center;
-
-        a {
-            display: flex;
-            margin: 0 .1em;
-            padding: 0 1em 0 0;
-            text-decoration: none;
-            align-items: center;
-            color: white;
-            border-radius: .25em;
-
-            svg {
-                display: inline-block;
-                width: 1em;
-                height: 1em;
-                margin-right: .5em;
-                fill: rgba(77, 178, 255, 1);
-            }
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
     }
 
     span {
