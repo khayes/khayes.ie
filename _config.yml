@@ -9,6 +9,7 @@ github_username:  khayes
 
 sass:
   style: compressed
+  sass_dir: _sass
 
 # Build settings
 markdown: kramdown

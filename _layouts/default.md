@@ -15,7 +15,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
     <meta charset="utf-8">
     <title>Kieran Hayes {% if page.title %} {{ page.title }} {% endif %}</title>
     <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content; default-src 'none'; img-src 'self'; style-src 'self';">
-    <link rel="stylesheet" href="/assets/site.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
     <header id="header">
