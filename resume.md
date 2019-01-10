@@ -19,6 +19,49 @@ permalink: /resume/
         </nav>
     </header>
     -->
+    <section id="skills">
+        <h3>Skills</h3>
+        <dl class="left-column">
+            <dt>Languages & Frameworks</dt>
+            <dd>C#</dd>
+            <dd>.NET Framework, .NET Core, .NET Standard</dd>
+            <dd>ASP.NET, ASP.NET Core</dd>
+            <dd><abbr title="Structured Query Language">SQL</abbr></dd>
+            <dd>Lua</dd>
+        </dl>
+        <dl class="right-column">
+            <dt>Software Delivery</dt>
+            <dd>Docker</dd>
+            <dd>Kubernetes, Helm</dd>
+            <dd>Git</dd>
+            <dd>MSBuild</dd>
+            <dd>Octopus Deploy</dd>
+            <dd>Jenkins</dd>
+        </dl>
+        <dl class="left-column">
+            <dt>Backend Skills</dt>
+            <dd><abbr title="Windows Communication Foundation">WCF</abbr></dd>
+            <dd>Windows Server, IIS</dd>
+            <dd>SQL Server</dd>
+            <dd>RabbitMQ</dd>
+            <dd>MySQL</dd>          
+            <dd>Couchbase</dd>
+        </dl>
+        <dl class="right-column">
+            <dt>Frontend Skills</dt>
+            <dd>JavaScript, TypeScript</dd>
+            <dd>HTML</dd>
+            <dd>CSS, SASS, LESS</dd>
+            <dd>Adobe Photoshop</dd>
+            <dd><abbr title="Windows Presentation Foundation">WPF</abbr> (Prism)</dd>
+        </dl>
+        <dl class="left-column">
+            <dt>People Skills</dt>
+            <dd>Experienced in high pressure operations environments.</dd>
+            <dd>Proven ability to tutor and mentor.</dd>
+            <dd>Seasoned in customer service and support.</dd>
+        </dl>
+    </section>
     <section>
         <h3>Experience</h3>
         <article class="blizzard-entertainment">
@@ -85,49 +128,6 @@ permalink: /resume/
                 <li>Responsible for the creation of the graphics and animations for the college's annual fashion show.</li>
             </ul>
         </article>
-    </section>
-    <section id="skills">
-        <h3>Skills</h3>
-        <dl class="left-column">
-            <dt>Languages & Frameworks</dt>
-            <dd>C#</dd>
-            <dd>.NET Framework, .NET Core, .NET Standard</dd>
-            <dd>ASP.NET, ASP.NET Core</dd>
-            <dd><abbr title="Structured Query Language">SQL</abbr></dd>
-            <dd>Lua</dd>
-        </dl>
-        <dl class="right-column">
-            <dt>Software Delivery</dt>
-            <dd>Docker</dd>
-            <dd>Kubernetes, Helm</dd>
-            <dd>Git</dd>
-            <dd>MSBuild</dd>
-            <dd>Octopus Deploy</dd>
-            <dd>Jenkins</dd>
-        </dl>
-        <dl class="left-column">
-            <dt>Backend Skills</dt>
-            <dd><abbr title="Windows Communication Foundation">WCF</abbr></dd>
-            <dd>Windows Server, IIS</dd>
-            <dd>SQL Server</dd>
-            <dd>RabbitMQ</dd>
-            <dd>MySQL</dd>          
-            <dd>Couchbase</dd>
-        </dl>
-        <dl class="right-column">
-            <dt>Frontend Skills</dt>
-            <dd>JavaScript, TypeScript</dd>
-            <dd>HTML</dd>
-            <dd>CSS, SASS, LESS</dd>
-            <dd>Adobe Photoshop</dd>
-            <dd><abbr title="Windows Presentation Foundation">WPF</abbr> (Prism)</dd>
-        </dl>
-        <dl class="left-column">
-            <dt>People Skills</dt>
-            <dd>Experienced in high pressure operations environments.</dd>
-            <dd>Proven ability to tutor and mentor.</dd>
-            <dd>Seasoned in customer service and support.</dd>
-        </dl>
     </section>
     <section>
         <h3>Honors & Awards</h3>
