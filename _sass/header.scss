@@ -1,12 +1,14 @@
+@import 'core';
+
 #header {
-    margin: 0;
-    padding: 0;
+    @include no-margin-padding();
+
     background-color: rgba(37, 37, 37, 1);
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+    border-bottom: $divider-size solid $divider-highlight;
+    box-shadow: 0 $divider-size 0 $dropshadow-medium;
     grid-area: 1 / 1 / span 1 / span 3;
     display: grid;
-    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-columns: $gutter-size auto auto $gutter-size;
 
     hgroup {
         grid-area: 1 / 2;
@@ -22,19 +24,18 @@
         */
 
         h1 {
-            margin: 0;
-            padding: 0;
             vertical-align: middle;
             font-size: 2em;
             font-weight: normal;
-            text-shadow: 0 2px black;
+            @include text-dropshadow();
+            @include no-margin-padding();
         }
 
         h2 {
             font-size: 1.25em;
             font-weight: normal;
-            margin: 0;
-            padding: 0;
+            @include text-dropshadow();
+            @include no-margin-padding();
         }
     }
 
@@ -43,8 +44,8 @@
         justify-content: flex-end;
 
         a:hover {
-            background-color: rgba(0, 0, 0, 1);
-            border-color: rgba(255, 255, 255, 0.25);
+            background-color: black;
+            border-color: $divider-dropshadow;
         }
     }
 }

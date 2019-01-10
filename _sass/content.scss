@@ -1,5 +1,6 @@
+@import 'core';
+
 #content {
-    margin: 0;
-    padding: 0;
+    @include no-margin-padding();
     grid-area: 2 / 2 / span 1 / span 1;
 }

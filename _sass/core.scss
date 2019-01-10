@@ -1,0 +1,28 @@
+$gutter-size: 5%;
+$icon-size: 16px;
+
+$blue: rgba(77, 178, 255, 1);
+$smooth-white: rgba(227, 227, 227, 1);
+$charcoal-grey: rgba(45, 45, 45, 1);
+
+$dropshadow-medium: rgba(0, 0, 0, 0.5);
+$dropshadow-light: rgba(0, 0, 0, .25);
+
+$border-light: rgba(255, 255, 255, .25);
+$border-dark: $dropshadow-medium;
+
+$offset-subtle: 0.075em;
+
+$divider-size: $offset-subtle;
+$divider-dropshadow: $dropshadow-medium;
+$divider-highlight: rgba(255, 255, 255, 0.1);
+$divider-inset-highlight: rgba(255, 255, 255, 0.05);
+
+@mixin text-dropshadow() {
+    text-shadow: 0 $offset-subtle $dropshadow-light;
+}
+
+@mixin no-margin-padding() {
+    margin: 0;
+    padding: 0;
+}
