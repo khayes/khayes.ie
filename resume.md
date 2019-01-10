@@ -11,10 +11,10 @@ permalink: /resume/
         
         <nav>
             <a href="https://github.com/khayes/" target="_blank">
-                <svg><use xlink:href="{{ '/assets/minima-social-icons.svg#printer' | relative_url }}"></use></svg> Print
+                <svg><use xlink:href="{{ '/assets/icons.svg#printer' | relative_url }}"></use></svg> Print
             </a>
             <a href="https://github.com/khayes/" target="_blank">
-                <svg><use xlink:href="{{ '/assets/minima-social-icons.svg#download' | relative_url }}"></use></svg> Download
+                <svg><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg> Download
             </a>
         </nav>
     </header>

@@ -25,10 +25,10 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
       </hgroup>
       <nav class="icons">
         <a href="/about/">
-          <svg><use xlink:href="{{ '/assets/minima-social-icons.svg#about' | relative_url }}"></use></svg> About
+          <svg><use xlink:href="{{ '/assets/icons.svg#about' | relative_url }}"></use></svg> About
         </a>
         <a href="/resume/">
-          <svg><use xlink:href="{{ '/assets/minima-social-icons.svg#résumé' | relative_url }}"></use></svg> Résumé
+          <svg><use xlink:href="{{ '/assets/icons.svg#resume' | relative_url }}"></use></svg> Résumé
         </a>
       </nav>
     </header>
@@ -36,10 +36,10 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
     <footer id="footer">
       <nav class="icons">
         <a href="https://github.com/khayes/" title="GitHub" target="_blank">
-          <svg><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> GitHub
+          <svg><use xlink:href="{{ '/assets/icons.svg#github' | relative_url }}"></use></svg> GitHub
         </a>
         <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank">
-          <svg><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> LinkedIn
+          <svg><use xlink:href="{{ '/assets/icons.svg#linkedin' | relative_url }}"></use></svg> LinkedIn
         </a>
       </nav>
     </footer>
