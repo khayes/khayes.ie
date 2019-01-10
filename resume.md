@@ -136,25 +136,27 @@ permalink: /resume/
                 <h5>CCMA - Best Training Programme</h5>
                 <h6>November 2014, CCMA Ireland</h6>
             </hgroup>
-            <p>Conceived and implemented the proprietary tools for Blizzard Entertainment that would allow them to deliver training to their support staff directly through their AAA title “World of Warcraft”. This training programme went on to win the national <a href="https://ccma.ie/" target="_blank">CCMA</a> award.</p>
-            <p>This was accomplished by creating a web based tool that would allow their Learning & Development team to create course modules and output this data into a Lua format. This Lua data was then used to power a suite of “World of Warcraft” AddOns which hooked into the game itself to allow staff to interactively learn and explore the new game content.</p>
+            <ul>
+                <li>Developed the concept and tooling that awarded Blizzard Entertainment the 2014 <a href="https://ccma.ie/" target="_blank">CCMA</a> award for "Best Training Programme".</li>
+            </ul>
         </article>
         <article class="blizzard-entertainment">
             <hgroup>
                 <h5>Recognize Award</h5>
                 <h6>July 2013, Blizzard Entertainment</h6>
             </hgroup>
-            <p>During an annual internal Customer Support ceremony I was awarded a “Recognize” award for my engineering work on an internal reporting application.</p>
-            <p>For this I conceived and developed an ASP.NET application that would in real time query multiple external sources for real time statistics centered around the companies global Customer Support operations. These statistics were then aggregated and presented to the user in an easy to understand form. Where as previously staff had to use multiple complex tools at the same time, and try to cross reference results in real time themselves.</p>
-            <p>This application has proven to be invaluable for the company over these years. It has greatly helped staff to ensure SLA targets were being adhered to, which in turn raises the actual level of support provided by the company globally.</p>
+            <ul>
+                <li>Created global real time dashboard to consolidate statistics from multiple internal and external contact centre systems.</li>
+            </ul>
         </article>
         <article class="blizzard-entertainment">
             <hgroup>
                 <h5>Global Hackathon Finalist</h5>
                 <h6>December 2018, Blizzard Entertainment</h6>
             </hgroup>
-            <p>At the end of each year Blizzard Entertainment run a global Hackathon to allow staff the freedom to explore and create innovative solutions to business problems. This event takes place across all of the companies global offices with hundreds of designers and engineers participating.</p>
-            <p>My 2018 solo project was recognized as a finalist. In this I created a custom solution that would allow AddOns for “World of Warcraft” to send Telemetry data into an Elasticsearch cluster. This data was recognized as invaluable for how Customer Support as it allows them to better determine how best to help players with their in-game support needs.</p>
+            <ul>
+                <li>Built a bridge to allow "World of Warcraft" AddOns to submit data to Elasticsearch.</li>
+            </ul>
         </article>
     </section>
 </div>
