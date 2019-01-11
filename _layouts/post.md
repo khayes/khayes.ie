@@ -1,7 +1,0 @@
----
-layout: default
----
-
-<h1>{{ page.title }}</h1>
-<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
-{{ content }}
