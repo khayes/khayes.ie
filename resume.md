@@ -67,7 +67,7 @@ permalink: /resume/
             <ul>
                 <li>Identified and resolved GDPR compliance needs for global customer support applications & systems.</li>
                 <li>Drove and guided the adoption of .NET Core & Docker to meet departmental goal of cloud ready applications.</li>
-                <li>Developed continous deployment worflow and systems for MySQL databases.</li>
+                <li>Developed continuous deployment workflow and systems for MySQL databases.</li>
             </ul>
         </article>
         <article class="blizzard-entertainment">
@@ -79,7 +79,7 @@ permalink: /resume/
                 <li>Improved the performance of the primary customer support application, ensuring critical operations all performed within 3 seconds globally.<br/>
                 This entailed working with a range of technologies such as ASP.NET, WCF, WPF, WinForms, AngularJS, MySQL, Oracle, RabbitMQ & Couchbase.</li>
                 <li>Served as a regular on-call engineer ensuring 99.99% availability of applications & systems globally.</li>
-                <li>Analyzed and removed redudant systems within a large critical legacy application.</li>
+                <li>Analyzed and removed redundant systems within a large critical legacy application.</li>
             </ul>
         </article>
         <article class="blizzard-entertainment">
@@ -101,7 +101,7 @@ permalink: /resume/
             </hgroup>
             <ul>
                 <li>Provided technical support for players, most notable for "World of Warcraft".</li>
-                <li>Contributed to on-boarding and mentoring of new hires, to a rather unique customer service role.</li>
+                <li>Contributed to onboarding and mentoring of new hires, to a rather unique customer service role.</li>
                 <li>Identified inefficiencies in customer support workflows, and developed tools to improve speed of resolution for customers.</li> 
             </ul>
         </article>
