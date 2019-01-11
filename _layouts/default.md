@@ -13,7 +13,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Kieran Hayes {% if page.title %} {{ page.title }} {% endif %}</title>
+    <title>{% if page.title %} {{ page.title }} - {% endif %}Kieran Hayes</title>
     <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content; default-src 'none'; img-src 'self'; style-src 'self';">
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
@@ -24,6 +24,9 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
         <h2 class="subtitle">Software Engineer</h2>
       </hgroup>
       <nav class="icons">
+      <a href="/blog/">
+          <svg><use xlink:href="{{ '/assets/icons.svg#blog' | relative_url }}"></use></svg> Blog
+        </a>
         <a href="/about/">
           <svg><use xlink:href="{{ '/assets/icons.svg#about' | relative_url }}"></use></svg> About
         </a>
