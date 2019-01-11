@@ -22,10 +22,10 @@ permalink: /about/
 
 <h3>Background</h3>
 <p>
-    As a 4-5 year old I picked up a magazine that taught you how to program in <a href="https://en.wikipedia.org/wiki/Sinclair_BASIC" target="_blank">Sinclair BASIC</a>. Ever since then I have been hooked on teaching myself how to design and create software.
+    As a 4-5 year old I picked up a magazine that taught you how to program in <a href="https://en.wikipedia.org/wiki/Sinclair_BASIC" target="_blank">Sinclair BASIC</a>. Ever since then I have been hooked on teaching myself how to design and create software. I have experience in multimedia, design, lecturing, customer support, operations and engineering. I have created everything from websites and business applications, to game addons and multimedia exhibitions.
 </p>
 <p>
-    I don't consider myself to be someone who only rights code. I have experience in multimedia, design, lecturing, customer support, operations and engineering. I have created everything from websites and business applications, to game addons and multimedia exhibitions. My passion is to build quality products end to end, and to consider the whole spectrum of what that entails. From the code that is written and executed, to what the development and user experience is surrounding that.
+     I don't consider myself to be someone who only rights code, though that is my roots. My passion is to build quality products end to end, and to consider the whole spectrum of what that entails. From the code that is written and executed, to what the development and user experience is surrounding that.
 </p>
 
 <h3>Contact Me</h3>
