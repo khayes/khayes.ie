@@ -24,9 +24,11 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
         <h2 class="subtitle">Software Engineer</h2>
       </hgroup>
       <nav class="icons">
-      <a href="/blog/">
+        <!--
+        <a href="/blog/">
           <svg><use xlink:href="{{ '/assets/icons.svg#blog' | relative_url }}"></use></svg> Blog
         </a>
+        -->
         <a href="/about/">
           <svg><use xlink:href="{{ '/assets/icons.svg#about' | relative_url }}"></use></svg> About
         </a>
