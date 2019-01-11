@@ -62,7 +62,7 @@ permalink: /resume/
         <article class="blizzard-entertainment">
             <hgroup>
                 <h5>Software Engineer</h5>
-                <h6>March 2017 - December 2018</h6>
+                <h6>March 2017 - December 2018, Blizzard Entertainment</h6>
             </hgroup>
             <ul>
                 <li>Identified and resolved GDPR compliance needs for global customer support applications & systems.</li>
@@ -72,7 +72,7 @@ permalink: /resume/
         </article>
         <article class="blizzard-entertainment">
             <hgroup>
-                <h5>Associate Software Engineer</h5>
+                <h5>Associate Software Engineer, Blizzard Entertainment</h5>
                 <h6>September 2015 - March 2017</h6>
             </hgroup>
             <ul>
@@ -85,7 +85,7 @@ permalink: /resume/
         <article class="blizzard-entertainment">
             <hgroup>
                 <h5>Tools Developer</h5>
-                <h6>November 2012 - September 2015</h6>
+                <h6>November 2012 - September 2015, Blizzard Entertainment</h6>
             </hgroup>
             <ul>
                 <li>Created real time operational reporting systems using ASP.NET, SignalR, SQL Server and Angular JS.</li>
@@ -97,7 +97,7 @@ permalink: /resume/
         <article class="blizzard-entertainment">
             <hgroup>
                 <h5>Customer Support Representative</h5>
-                <h6>December 2007 - December 2012</h6>
+                <h6>December 2007 - December 2012, Blizzard Entertainment</h6>
             </hgroup>
             <ul>
                 <li>Provided technical support for players, most notable for "World of Warcraft".</li>
