@@ -3,7 +3,7 @@
 #header {
     @include no-margin-padding();
 
-    background-color: rgba(37, 37, 37, 1);
+    background-color: $dark-grey;
     border-bottom: $divider-size solid $divider-highlight;
     box-shadow: 0 $divider-size 0 $dropshadow-medium;
     grid-area: 1 / 1 / span 1 / span 3;

@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-<h3>About Me</h3>
+<h1>About Me</h1>
 <p>
     My name is Kieran Hayes. I'm a software engineer based in Dublin, Ireland.<br />
     My experiences and hobbies are within the gaming industry, where I have over a decade of experience.
 </p>
 <p>
-    Most notably I have created and maintained customer service applications & systems for <a href="https://www.blizzard.com/" target="_blank">Blizzard Entertainment</a>. This includes support for AAA titles such as:
+    Most notably I have created and maintained customer service applications & systems for <a href="https://www.blizzard.com/" target="_blank">Blizzard Entertainment</a> for AAA titles such as:<br />
     <ul>
         <li><a href="https://worldofwarcraft.com/" target="_blank">World of Warcraft</a></li>
         <li><a href="https://playoverwatch.com/" target="_blank">Overwatch</a></li>
