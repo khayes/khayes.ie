@@ -44,9 +44,14 @@
         justify-content: flex-end;
         font-size: 1.25em;
 
+        a {
+            padding: .75em;
+        }
+
         a:hover {
             background-color: black;
             border-color: $divider-dropshadow;
+            text-decoration: none;
         }
     }
 }
