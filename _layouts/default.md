@@ -30,7 +30,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
         <a href="/about/">
           <svg><use xlink:href="{{ '/assets/icons.svg#about' | relative_url }}"></use></svg> About
         </a>
-        <a href="/resume/">
+        <a href="/resume2/">
           <svg><use xlink:href="{{ '/assets/icons.svg#resume' | relative_url }}"></use></svg> Résumé
         </a>
       </nav>
