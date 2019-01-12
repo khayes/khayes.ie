@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 twitter_username: khayes_ie
 github_username:  khayes
-permalink: /post/:slug
+permalink: /article/:slug
 excerpt_separator: <!--read_more-->
 
 sass:
