@@ -35,7 +35,9 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
         </a>
       </nav>
     </header>
-    <main id="content">{{ content }}</main>
+    <main id="content">
+      <div id="content-container">{{ content }}</div>
+    </main>
     <footer id="footer">
       <nav class="icons">
         <a href="https://github.com/khayes/" title="GitHub" target="_blank">
