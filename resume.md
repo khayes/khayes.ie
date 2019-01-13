@@ -5,11 +5,18 @@ permalink: /resume/
 ---
 
 <article id="resume">
-    <hgroup>
+    <header>
         <h1>Kieran Hayes</h1>
-        <h5>kieran@khayes.ie</h5>
-        <a>https://khayes.ie/resume/</a>
-    </hgroup>
+        <h5>Software Engineer</h5>
+        <nav class="icons">
+            <a href="https://github.com/khayes/" title="GitHub" target="_blank">
+                <svg><use xlink:href="{{ '/assets/icons.svg#github' | relative_url }}"></use></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank">
+                <svg><use xlink:href="{{ '/assets/icons.svg#linkedin' | relative_url }}"></use></svg>
+            </a>
+        </nav>
+    </header>
     <section id="experience">
         <h2>Experience</h2>
         <section>
@@ -116,5 +123,5 @@ permalink: /resume/
             </ul>
         </section>
     </section>
-    <footer>References available upon request.</footer>
+    <footer><a href="/resume/download/">Download printable version.</a></footer>
 </article>
