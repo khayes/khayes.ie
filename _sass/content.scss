@@ -1,6 +1,12 @@
 @import 'core';
 
 #content {
+    grid-area: 2 / 1 / span 1 / span 3;
     @include no-margin-padding();
-    grid-area: 2 / 2 / span 1 / span 1;
+    display: grid;
+    grid-template-columns: $gutter-size auto $gutter-size;
+
+    #content-container {
+        grid-area: 1 / 2;
+    }
 }

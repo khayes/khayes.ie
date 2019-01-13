@@ -14,7 +14,6 @@ body {
     height: 100%;
     @include no-margin-padding();
     display: grid;
-    grid-template-columns: $gutter-size auto $gutter-size;
     grid-template-rows: auto 1fr auto;
 }
 

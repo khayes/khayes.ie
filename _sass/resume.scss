@@ -1,31 +1,48 @@
 @import 'core';
 
+$left-column-size: 15em;
+$right-column-size: 20em;
+
 #resume {
+    margin: 1em 2em;
+
     header {
         display: grid;
+        padding-bottom: 1em;
 
         h1 {
             grid-area: 1 / 1;
-            font-weight: normal;
+            @include no-margin-padding();
+            font-size: 2.75em;
+        }
+
+        h5 {
+            grid-area: 2 / 1;
+            @include no-margin-padding();
+            font-size: 1.75em;
         }
 
         nav {
-            grid-area: 1 / 2;
+            grid-area: 1 / 2 / span 2 / span 1;
+            @include no-margin-padding();
+            text-align: right;
+            color: inherit;
             display: flex;
+            align-content: center;
             justify-content: flex-end;
-            align-items: center;
-            margin: 0;
-            padding: 0;
 
             a {
-                margin: 0 0 0 1rem;
-                color: white;
-                text-decoration: none;
+                margin-left: 1em;
 
                 svg {
-                    width: 1rem;
-                    height: 1rem;
-                    margin-right: .5rem;
+                    width: 32px;
+                    height: 32px;
+                    fill: $smooth-white;
+                }
+            }
+
+            a:hover {
+                svg {
                     fill: $blue;
                 }
             }
@@ -33,87 +50,118 @@
     }
 
     section {
-        margin: 2rem 0;
+        display: grid;
+        grid-auto-columns: $left-column-size auto;
+        margin: 0;
+        padding: .5em 0;
+        border-top: 1px solid $border-light;
 
-        article {
-            margin: 3rem 1rem;
+        h2 {
+            grid-column: 1;
+            @include no-margin-padding();
+            font-size: 1.5em;
+        }
+
+        section {
+            display: grid;
+            grid-column: 2;
+            grid-auto-columns: auto;
+            margin: .5em 0;
+            padding: 0;
+            border: none;
 
             hgroup {
-                border-bottom: 1px dotted rgba(255, 255, 255, .25);
-                background-repeat: no-repeat;
-                background-position: right;
-                background-size: 5em;
-    
+                display: grid;
+                grid-auto-columns: auto $right-column-size;
+                grid-area: 1 / 1;
+                @include no-margin-padding();
+
                 h5 {
-                    @include no-margin-padding();
-                    font-weight: 500;
+                    grid-column: 1;
+                    grid-row: 1;
+                    font-size: 1.25em;
                 }
-        
+
                 h6 {
-                    margin: .25rem 0;
-                    padding: 0;
+                    grid-column: 1;
+                    grid-row: 2;
+                    font-size: 1em;
+                }
 
-                    a {
-                        text-decoration: none;
-                        color: inherit;
-                    }
+                address {
+                    grid-area: 1 / 2 / span 2 / span 1;
+                    text-align: right;
+                    font-size: 1em;
+                }
+
+                h5, h6, address {
+                    font-weight: 500;
+                    font-style: normal;
                 }
             }
-        }
 
-        article.blizzard-entertainment {
-            hgroup {
-                background-image: url(/assets/Blizzard_Entertainment_Logo.svg);
-            }
-        }
-
-        article.btech {
-            hgroup {
-                background-image: url(/assets/btech_logo_inverted.png);
-            }
-        }
-
-        article.ccma {
-            hgroup {
-                background-image: url(/assets/ccma_logo.png);
+            ul {
+                display: block;
+                grid-area: 2 / 1;
+                @include no-margin-padding();
+                padding-left: 2em;
             }
         }
     }
 
     section#skills {
-        display: grid;
-
-        h3 {
-            grid-area: 1 / 1 / span 1 / span 2;
-        }
-
-        dl {
-            margin: 1rem;
-        }
-
-        dl.left-column {
-            grid-column: 1;
-        }
-
-        dl.right-column {
-            grid-column: 2;
-        }
-
-        dl {
-            dt {
-                @include no-margin-padding();
-                font-weight: 500;
+        section {
+            ul {
+                -moz-column-count: 3;
+                -webkit-column-count: 3;
+                column-count: 3;
             }
+        }
+    }
 
-            dd {
+    section#honors {
+        section {
+            ul {
+                display: block;
+                list-style-type: none;
+                margin: 0;
                 padding: 0;
-                display: list-item;
-                list-style-type: disc;
 
-                abbr {
-                    text-decoration: none;
+                li {
+                    display: grid;
+                    grid-auto-columns: 1fr 1fr;
+
+                    span {
+                        grid-area: 1 / 1;
+                    }
+
+                    address {
+                        grid-area: 1 / 2;
+                        text-align: right;
+                        font-style: normal;
+                    }
                 }
             }
+        }
+    }
+
+    #experience, #education {
+        address {
+            display: block;
+            background-repeat: no-repeat;
+            background-size: 5em;
+            background-position: right;
+            text-indent: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        address.blizzard-entertainment {
+            background-image: url("/assets/Blizzard_Entertainment_Logo.svg");
+        }
+
+        address.btech {
+            background-image: url("/assets/btech_logo_inverted.png");
         }
     }
 }
