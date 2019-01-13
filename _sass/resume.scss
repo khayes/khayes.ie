@@ -102,4 +102,30 @@ $right-column-size: 20em;
             }
         }
     }
+
+    section#honors {
+        section {
+            ul {
+                display: block;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: grid;
+                    grid-auto-columns: 1fr 1fr;
+
+                    span {
+                        grid-area: 1 / 1;
+                    }
+
+                    address {
+                        grid-area: 1 / 2;
+                        text-align: right;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+    }
 }

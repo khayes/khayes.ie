@@ -31,7 +31,7 @@ permalink: /resume/
                 <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
-                <li>Responsible for performance of customer support applications built with<br />ASP.NET, WCF, WPF, AngularJS, MySQL, RabbitMQ & Couchbase.</li>
+                <li>Responsible for performance of customer support applications built with ASP.NET, WCF, WPF, AngularJS, MySQL, RabbitMQ & Couchbase.</li>
                 <li>On-call engineer ensuring 99.99% availability of applications.</li>
                 <li>Refactored and migrated critical legacy systems.</li>
             </ul>
@@ -96,16 +96,24 @@ permalink: /resume/
     <section id="honors">
         <h2>Honors</h2>
         <section>
-            <dl>
-                <dt>Global Hackathon Finalist, 2018</dt>
-                <dd>Blizzard Entertainment</dd>
-                <dt>Best Training Programme, 2014</dt>
-                <dd>CCMA Ireland</dd>
-                <dt>Recognize Award, 2013</dt>
-                <dd>Blizzard Entertainment</dd>
-                <dt>Student of the Year. 2003</dt>
-                <dd>Bray Senior College</dd>
-            </dl>
+            <ul>
+                <li>
+                    <span>Global Hackathon Finalist, 2018</span>
+                    <address>Blizzard Entertainment</address>
+                </li>
+                <li>
+                    <span>Best Training Programme, 2014</span>
+                    <address>CCMA Ireland</address>
+                </li>
+                <li>
+                    <span>Recognize Award, 2013</span>
+                    <address>Blizzard Entertainment</address>
+                </li>
+                <li>
+                    <span>Student of the Year. 2003</span>
+                    <address>Bray Senior College</address>
+                </li>
+            </ul>
         </section>
     </section>
     <footer>References available upon request.</footer>
