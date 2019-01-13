@@ -1,153 +1,112 @@
 ---
-layout: page
+layout: resume
 title: Résumé
 permalink: /resume/
 ---
 
-<div id="resume">
-    <!--
-    <header>
+<article id="resume">
+    <hgroup>
         <h1>Kieran Hayes</h1>
-        
-        <nav>
-            <a href="https://github.com/khayes/" target="_blank">
-                <svg><use xlink:href="{{ '/assets/icons.svg#printer' | relative_url }}"></use></svg> Print
-            </a>
-            <a href="https://github.com/khayes/" target="_blank">
-                <svg><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg> Download
-            </a>
-        </nav>
-    </header>
-    -->
-    <section id="skills">
-        <h3>Skills</h3>
-        <dl class="left-column">
-            <dt>Languages & Frameworks</dt>
-            <dd>C#</dd>
-            <dd>.NET Framework, .NET Core, .NET Standard</dd>
-            <dd>ASP.NET, ASP.NET Core</dd>
-            <dd>Lua</dd>
-        </dl>
-        <dl class="right-column">
-            <dt>Software Delivery</dt>
-            <dd>Git</dd>
-            <dd>Docker, Kubernetes, Helm</dd>
-            <dd>MSBuild</dd>
-            <dd>Octopus Deploy</dd>
-        </dl>
-        <dl class="left-column">
-            <dt>Backend Skills</dt>
-            <dd><abbr title="Windows Communication Foundation">WCF</abbr></dd>
-            <dd>Windows Server, IIS</dd>
-            <dd>SQL Server, MySQL, Couchbase</dd>
-            <dd>RabbitMQ</dd>
-        </dl>
-        <dl class="right-column">
-            <dt>Frontend Skills</dt>
-            <dd>JavaScript, TypeScript</dd>
-            <dd>HTML</dd>
-            <dd>CSS, SASS, LESS</dd>
-            <dd>Adobe Photoshop</dd>
-            <dd><abbr title="Windows Presentation Foundation">WPF</abbr> (Prism)</dd>
-        </dl>
-        <dl class="left-column">
-            <dt>People Skills</dt>
-            <dd>Experienced in high pressure operations environments.</dd>
-            <dd>Proven ability to tutor and mentor.</dd>
-            <dd>Seasoned in customer service and support.</dd>
-        </dl>
-    </section>
-    <section>
-        <h3>Experience</h3>
-        <article class="blizzard-entertainment">
+        <h5>kieran@khayes.ie</h5>
+        <a>https://khayes.ie/resume/</a>
+    </hgroup>
+    <section id="experience">
+        <h2>Experience</h2>
+        <section>
             <hgroup>
                 <h5>Software Engineer</h5>
-                <h6>March 2017 - December 2018, Blizzard Entertainment</h6>
+                <h6>March 2017 - December 2018</h6>
+                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
-                <li>Identified and resolved GDPR compliance needs for global customer support applications & systems.</li>
-                <li>Drove and guided the adoption of .NET Core & Docker to meet departmental goal of cloud ready applications.</li>
-                <li>Developed continuous deployment workflow and systems for MySQL databases.</li>
+                <li>Ensured GDPR compliance of customer support applications.</li>
+                <li>Led migration of applications to .NET Core & Docker.</li>
+                <li>Developed CI/CD tooling for MySQL databases.</li>
             </ul>
-        </article>
-        <article class="blizzard-entertainment">
+        </section>
+        <section>
             <hgroup>
-                <h5>Associate Software Engineer, Blizzard Entertainment</h5>
+                <h5>Associate Software Engineer</h5>
                 <h6>September 2015 - March 2017</h6>
+                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
-                <li>Improved the performance of the primary customer support application, ensuring critical operations all performed within 3 seconds globally.<br/>
-                This entailed working with a range of technologies such as ASP.NET, WCF, WPF, WinForms, AngularJS, MySQL, Oracle, RabbitMQ & Couchbase.</li>
-                <li>Served as a regular on-call engineer ensuring 99.99% availability of applications & systems globally.</li>
-                <li>Analyzed and removed redundant systems within a large critical legacy application.</li>
+                <li>Responsible for performance of customer support applications built with<br />ASP.NET, WCF, WPF, AngularJS, MySQL, RabbitMQ & Couchbase.</li>
+                <li>On-call engineer ensuring 99.99% availability of applications.</li>
+                <li>Refactored and migrated critical legacy systems.</li>
             </ul>
-        </article>
-        <article class="blizzard-entertainment">
+        </section>
+        <section>
             <hgroup>
                 <h5>Tools Developer</h5>
-                <h6>November 2012 - September 2015, Blizzard Entertainment</h6>
+                <h6>November 2012 - September 2015</h6>
+                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
-                <li>Created real time operational reporting systems using ASP.NET, SignalR, SQL Server and Angular JS.</li>
-                <li>Conceived and developed ASP.NET, XML and LUA based tooling to allow the training department to deliver training materials in-game.</li>
-                <li>Built a content management system using WPF, WCF and SQL Server to allow customer support to notify customers of urgent events.</li>
-                <li>Engineered a chat bot for World of Warcraft, that would allow new players to request immediate help from a Game Master.</li>
+                <li>Created real time dashboards with SignalR and AngularJS.</li>
+                <li>Built ASP.NET, Lua tools for generating interactive in-game training modules.</li>
+                <li>Developed a CMS for news updates using WPF, WCF and SQL Server.</li>
+                <li>Engineered a chat bot to assist new players in-game.</li>
             </ul>
-        </article>
-        <article class="blizzard-entertainment">
+        </section>
+        <section>
             <hgroup>
                 <h5>Customer Support Representative</h5>
-                <h6>December 2007 - December 2012, Blizzard Entertainment</h6>
+                <h6>December 2007 - December 2012</h6>
+                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
-                <li>Provided technical support for players, most notable for "World of Warcraft".</li>
-                <li>Contributed to onboarding and mentoring of new hires, to a rather unique customer service role.</li>
-                <li>Identified inefficiencies in customer support workflows, and developed tools to improve speed of resolution for customers.</li> 
+                <li>Provided technical support for players.</li>
+                <li>Training, onboarding and mentoring of new hires.</li>
+                <li>Developed tools to address self identified workflow inefficiencies.</li>
             </ul>
-        </article>
+        </section>
     </section>
     <section id="education">
-        <h3>Education</h3>
-        <article class="btech">
+        <h2>Education</h2>
+        <section>
             <hgroup>
-                <h5>BTECH Higher National Diploma in Multimedia & Web Design</h5>
-                <h6>2001 - 2003, Bray Institute of Further Education</h6>
+                <h5>Higher National Diploma</h5>
+                <h6>2001 - 2003</h6>
+                <address>Bray Senior College<br />Bray, Co. Wicklow, Ireland</address>
             </hgroup>
             <ul>
                 <li>Graduated with distinctions.</li>
-                <li>Awarded "Student of the Year" upon graduation</li>
-                <li>Responsible for the creation of the graphics and animations for the college's annual fashion show.</li>
+                <li>Awarded "Student of the Year" upon graduation.</li>
+                <li>Responsible for multimedia elements of the annual fashion show.</li>
             </ul>
-        </article>
+        </section>
     </section>
-    <section>
-        <h3>Honors & Awards</h3>
-        <article class="ccma">
-            <hgroup>
-                <h5>CCMA - Best Training Programme</h5>
-                <h6>November 2014, CCMA Ireland</h6>
-            </hgroup>
+    <section id="skills">
+        <h2>Skills</h2>
+        <section>
             <ul>
-                <li>Developed the concept and tooling that awarded Blizzard Entertainment the 2014 <a href="https://ccma.ie/" target="_blank">CCMA</a> award for "Best Training Programme".</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>Lua</li>
+                <li>Docker</li>
+                <li>ASP.NET Core</li>
+                <li>WCF</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
             </ul>
-        </article>
-        <article class="blizzard-entertainment">
-            <hgroup>
-                <h5>Recognize Award</h5>
-                <h6>July 2013, Blizzard Entertainment</h6>
-            </hgroup>
-            <ul>
-                <li>Created global real time dashboard to consolidate statistics from multiple internal and external contact centre systems.</li>
-            </ul>
-        </article>
-        <article class="blizzard-entertainment">
-            <hgroup>
-                <h5>Global Hackathon Finalist</h5>
-                <h6>December 2018, Blizzard Entertainment</h6>
-            </hgroup>
-            <ul>
-                <li>Built a bridge to allow "World of Warcraft" AddOns to submit data to Elasticsearch.</li>
-            </ul>
-        </article>
+        </section>
     </section>
-</div>
+    <section id="honors">
+        <h2>Honors</h2>
+        <section>
+            <dl>
+                <dt>Global Hackathon Finalist, 2018</dt>
+                <dd>Blizzard Entertainment</dd>
+                <dt>Best Training Programme, 2014</dt>
+                <dd>CCMA Ireland</dd>
+                <dt>Recognize Award, 2013</dt>
+                <dd>Blizzard Entertainment</dd>
+                <dt>Student of the Year. 2003</dt>
+                <dd>Bray Senior College</dd>
+            </dl>
+        </section>
+    </section>
+    <footer>References available upon request.</footer>
+</article>
