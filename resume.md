@@ -123,5 +123,5 @@ permalink: /resume/
             </ul>
         </section>
     </section>
-    <footer><a href="/assets/Kieran%20Hayes%20-%20Résumé.pdf">Download printable version.</a></footer>
+    <footer><a href="/assets/Kieran%20Hayes%20-%20Résumé.pdf" download>Download printable version.</a></footer>
 </article>
