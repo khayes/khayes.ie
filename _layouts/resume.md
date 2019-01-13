@@ -18,6 +18,6 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <main id="content">{{ content }}</main>
+    <main id="resume">{{ content }}</main>
   </body>
 </html>
