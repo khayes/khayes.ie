@@ -19,7 +19,7 @@ $right-column-size: 20em;
         h5 {
             grid-area: 2 / 1;
             @include no-margin-padding();
-            font-size: 2em;
+            font-size: 1.75em;
         }
 
         nav {
@@ -142,6 +142,26 @@ $right-column-size: 20em;
                     }
                 }
             }
+        }
+    }
+
+    #experience, #education {
+        address {
+            display: block;
+            background-repeat: no-repeat;
+            background-size: 5em;
+            background-position: right;
+            text-indent: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        address.blizzard-entertainment {
+            background-image: url("/assets/Blizzard_Entertainment_Logo.svg");
+        }
+
+        address.btech {
+            background-image: url("/assets/btech_logo_inverted.png");
         }
     }
 }

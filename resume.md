@@ -23,7 +23,7 @@ permalink: /resume/
             <hgroup>
                 <h5>Software Engineer</h5>
                 <h6>March 2017 - December 2018</h6>
-                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
+                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
                 <li>Ensured GDPR compliance of customer support applications.</li>
@@ -35,7 +35,7 @@ permalink: /resume/
             <hgroup>
                 <h5>Associate Software Engineer</h5>
                 <h6>September 2015 - March 2017</h6>
-                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
+                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
                 <li>Responsible for performance of customer support applications built with ASP.NET, WCF, WPF, AngularJS, MySQL, RabbitMQ & Couchbase.</li>
@@ -47,7 +47,7 @@ permalink: /resume/
             <hgroup>
                 <h5>Tools Developer</h5>
                 <h6>November 2012 - September 2015</h6>
-                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
+                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
                 <li>Created real time dashboards with SignalR and AngularJS.</li>
@@ -60,12 +60,12 @@ permalink: /resume/
             <hgroup>
                 <h5>Customer Support Representative</h5>
                 <h6>December 2007 - December 2012</h6>
-                <address>Blizzard Entertainment<br />Blackpool, Co. Cork, Ireland</address>
+                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
             <ul>
                 <li>Provided technical support for players.</li>
                 <li>Training, onboarding and mentoring of new hires.</li>
-                <li>Developed tools to address self identified workflow inefficiencies.</li>
+                <li>Developed ad-hoc tools using Lua to address workflow inefficiencies.</li>
             </ul>
         </section>
     </section>
@@ -75,7 +75,7 @@ permalink: /resume/
             <hgroup>
                 <h5>Higher National Diploma</h5>
                 <h6>2001 - 2003</h6>
-                <address>Bray Senior College<br />Bray, Co. Wicklow, Ireland</address>
+                <address class="btech">Bray Senior College, Bray, Co. Wicklow, Ireland</address>
             </hgroup>
             <ul>
                 <li>Graduated with distinctions.</li>
@@ -123,5 +123,5 @@ permalink: /resume/
             </ul>
         </section>
     </section>
-    <footer><a href="/resume/download/">Download printable version.</a></footer>
+    <footer><a href="/assets/Kieran%20Hayes%20-%20Résumé.pdf">Download printable version.</a></footer>
 </article>
