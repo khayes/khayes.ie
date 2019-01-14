@@ -60,6 +60,7 @@ services:
 <p>
   Finally you can just start and stop your site using:<br />
   <section class="code-block">
+    <h6>Console</h6>
     <code>docker-compose up
 docker-compose down</code>
   </section>

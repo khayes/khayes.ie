@@ -110,36 +110,34 @@ $right-column-size: 20em;
     }
 
     section#skills {
-        section {
-            ul {
-                -moz-column-count: 3;
-                -webkit-column-count: 3;
-                column-count: 3;
-            }
+        ul {
+            grid-column: 2;
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
         }
     }
 
     section#honors {
-        section {
-            ul {
-                display: block;
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
+        ul {
+            grid-column: 2;
+            display: block;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
 
-                li {
-                    display: grid;
-                    grid-auto-columns: 1fr 1fr;
+            li {
+                display: grid;
+                grid-auto-columns: 1fr 1fr;
 
-                    span {
-                        grid-area: 1 / 1;
-                    }
+                span {
+                    grid-area: 1 / 1;
+                }
 
-                    address {
-                        grid-area: 1 / 2;
-                        text-align: right;
-                        font-style: normal;
-                    }
+                address {
+                    grid-area: 1 / 2;
+                    text-align: right;
+                    font-style: normal;
                 }
             }
         }
@@ -163,5 +161,9 @@ $right-column-size: 20em;
         address.btech {
             background-image: url("/assets/btech_logo_inverted.png");
         }
+    }
+
+    footer {
+        margin-top: 1em;
     }
 }

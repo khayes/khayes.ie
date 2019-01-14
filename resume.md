@@ -4,7 +4,7 @@ title: Résumé
 permalink: /resume/
 ---
 
-<article id="resume">
+<article>
     <header>
         <h1>Kieran Hayes</h1>
         <h5>Software Engineer</h5>
@@ -23,8 +23,8 @@ permalink: /resume/
             <hgroup>
                 <h5>Software Engineer</h5>
                 <h6>March 2017 - December 2018</h6>
-                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
+            <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             <ul>
                 <li>Ensured GDPR compliance of customer support applications.</li>
                 <li>Led migration of applications to .NET Core & Docker.</li>
@@ -35,8 +35,8 @@ permalink: /resume/
             <hgroup>
                 <h5>Associate Software Engineer</h5>
                 <h6>September 2015 - March 2017</h6>
-                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
+            <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             <ul>
                 <li>Responsible for performance of customer support applications built with ASP.NET, WCF, WPF, AngularJS, MySQL, RabbitMQ & Couchbase.</li>
                 <li>On-call engineer ensuring 99.99% availability of applications.</li>
@@ -47,8 +47,8 @@ permalink: /resume/
             <hgroup>
                 <h5>Tools Developer</h5>
                 <h6>November 2012 - September 2015</h6>
-                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
+            <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             <ul>
                 <li>Created real time dashboards with SignalR and AngularJS.</li>
                 <li>Built ASP.NET, Lua tools for generating interactive in-game training modules.</li>
@@ -60,8 +60,8 @@ permalink: /resume/
             <hgroup>
                 <h5>Customer Support Representative</h5>
                 <h6>December 2007 - December 2012</h6>
-                <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             </hgroup>
+            <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             <ul>
                 <li>Provided technical support for players.</li>
                 <li>Training, onboarding and mentoring of new hires.</li>
@@ -75,8 +75,8 @@ permalink: /resume/
             <hgroup>
                 <h5>Higher National Diploma</h5>
                 <h6>2001 - 2003</h6>
-                <address class="btech">Bray Senior College, Bray, Co. Wicklow, Ireland</address>
             </hgroup>
+            <address class="btech">Bray Senior College, Bray, Co. Wicklow, Ireland</address>
             <ul>
                 <li>Graduated with distinctions.</li>
                 <li>Awarded "Student of the Year" upon graduation.</li>
@@ -86,42 +86,38 @@ permalink: /resume/
     </section>
     <section id="skills">
         <h2>Skills</h2>
-        <section>
-            <ul>
-                <li>C#</li>
-                <li>SQL</li>
-                <li>Lua</li>
-                <li>Docker</li>
-                <li>ASP.NET Core</li>
-                <li>WCF</li>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-            </ul>
-        </section>
+        <ul>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>Lua</li>
+            <li>Docker</li>
+            <li>ASP.NET Core</li>
+            <li>WCF</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+        </ul>
     </section>
     <section id="honors">
         <h2>Honors</h2>
-        <section>
-            <ul>
-                <li>
-                    <span>Global Hackathon Finalist, 2018</span>
-                    <address>Blizzard Entertainment</address>
-                </li>
-                <li>
-                    <span>Best Training Programme, 2014</span>
-                    <address>CCMA Ireland</address>
-                </li>
-                <li>
-                    <span>Recognize Award, 2013</span>
-                    <address>Blizzard Entertainment</address>
-                </li>
-                <li>
-                    <span>Student of the Year. 2003</span>
-                    <address>Bray Senior College</address>
-                </li>
-            </ul>
-        </section>
+        <ul>
+            <li>
+                <span>Global Hackathon Finalist, 2018</span>
+                <address>Blizzard Entertainment</address>
+            </li>
+            <li>
+                <span>Best Training Programme, 2014</span>
+                <address>CCMA Ireland</address>
+            </li>
+            <li>
+                <span>Recognize Award, 2013</span>
+                <address>Blizzard Entertainment</address>
+            </li>
+            <li>
+                <span>Student of the Year. 2003</span>
+                <address>Bray Senior College</address>
+            </li>
+        </ul>
     </section>
     <footer><a href="/assets/Kieran%20Hayes%20-%20Résumé.pdf" download>Download printable version.</a></footer>
 </article>

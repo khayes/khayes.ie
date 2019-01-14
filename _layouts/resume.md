@@ -10,7 +10,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %} {{ page.title }} - {% endif %}Kieran Hayes</title>
