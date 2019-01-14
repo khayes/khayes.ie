@@ -34,6 +34,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
           <svg><use xlink:href="{{ '/assets/icons.svg#resume' | relative_url }}"></use></svg> Résumé
         </a>
       </nav>
+      <div class="clear"><!-- Hack for IE layout as it does not support css grid. ---></div>
     </header>
     <main id="content">
       <div id="content-container">{{ content }}</div>
