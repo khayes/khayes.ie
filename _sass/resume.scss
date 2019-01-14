@@ -270,7 +270,7 @@ $right-column-size: 20em;
                     }
                 }
 
-                a[title="Email"] {
+                a[href^="mailto"] {
                     display: inline-block;
                     height: 100%;
 
