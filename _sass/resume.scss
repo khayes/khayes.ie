@@ -182,12 +182,20 @@ $right-column-size: 20em;
             margin: 0;
             padding: 0;
 
-            nav: {
+            nav {
                 float: right;
+
+                a {
+                    svg {
+                        display: none;
+                    }
+                }
             }
         }
 
         section {
+            clear: both;
+
             h2 {
                 width: 5em;
                 font-size: 2em;
