@@ -10,3 +10,10 @@
         grid-area: 1 / 2;
     }
 }
+
+/* IE10+ specific styles go here */  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #content-container  {
+        padding: 0 $gutter-size;
+    }
+}

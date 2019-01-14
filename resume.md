@@ -10,9 +10,11 @@ permalink: /resume/
         <h5>Software Engineer</h5>
         <nav class="icons">
             <a href="https://github.com/khayes/" title="GitHub" target="_blank">
+                <span>GitHub</span>
                 <svg><use xlink:href="{{ '/assets/icons.svg#github' | relative_url }}"></use></svg>
             </a>
             <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank">
+                <span>LinkedIn</span>
                 <svg><use xlink:href="{{ '/assets/icons.svg#linkedin' | relative_url }}"></use></svg>
             </a>
         </nav>

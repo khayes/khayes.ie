@@ -55,3 +55,25 @@
         }
     }
 }
+
+
+/* IE10+ specific styles go here */  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #header  {
+        padding: 0 $gutter-size;
+
+        hgroup {
+            float: left;
+        }
+
+        nav {
+            float: right;
+            position: relative;
+            top: 1em;
+        }
+
+        .clear {
+            clear: both;
+        }
+    }
+}

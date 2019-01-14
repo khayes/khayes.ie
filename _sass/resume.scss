@@ -4,7 +4,9 @@ $left-column-size: 15em;
 $right-column-size: 20em;
 
 #resume {
-    margin: 1em 2em;
+    > article {
+        margin: 1em 2em;
+    }
 
     header {
         display: grid;
@@ -65,7 +67,7 @@ $right-column-size: 20em;
         section {
             display: grid;
             grid-column: 2;
-            grid-auto-columns: auto auto;
+            grid-auto-columns: 1fr auto;
             margin: .5em 0;
             padding: 0;
             border: none;
@@ -169,5 +171,80 @@ $right-column-size: 20em;
 
     footer {
         margin-top: 1em;
+    }
+}
+
+
+/* IE10+ specific styles go here */  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #resume {
+        header {
+            margin: 0;
+            padding: 0;
+
+            nav {
+                float: right;
+
+                a {
+                    svg {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        section {
+            clear: both;
+
+            h2 {
+                width: 5em;
+                font-size: 2em;
+            }
+
+            section {
+                margin-top: 1em;
+                padding: 0 1em;
+            }
+        }
+
+        #experience, #education {
+            hgroup {
+                float: left;
+            }
+
+            address {
+                width: 6em;
+                height: 3em;
+                float: right;
+            }
+
+            ul {
+                clear: both;
+            }
+        }
+
+        #honors {
+            ul {
+                margin-top: 1em !important;
+                padding: 0 1em !important;
+
+                li {
+                    clear: both;
+
+                    span {
+                        float: left;
+                    }
+
+                    address {
+                        float: right;
+                    }
+                }
+            }
+        }
+
+        footer {
+            clear: both;
+            margin-top: 5em;
+        }
     }
 }

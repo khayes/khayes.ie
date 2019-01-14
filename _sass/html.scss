@@ -34,6 +34,10 @@ nav.icons {
         border-radius: .25em;
         color: white;
         @include text-dropshadow();
+
+        span {
+            display: none;
+        }
     
         svg {
             display: inline-block;
@@ -82,4 +86,25 @@ p {
 
 code {
     font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+}
+
+/* IE10+ specific styles go here */  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    nav.icons {
+        a {
+            color: $blue;
+
+            span {
+                display: inline;
+            }
+
+            svg {
+                display: none;
+            }
+        }
+
+        a:hover {
+            color: $smooth-white;
+        }
+    }
 }
