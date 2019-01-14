@@ -92,6 +92,8 @@ code {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     nav.icons {
         a {
+            color: $blue;
+
             span {
                 display: inline;
             }
@@ -99,6 +101,10 @@ code {
             svg {
                 display: none;
             }
+        }
+
+        a:hover {
+            color: $smooth-white;
         }
     }
 }
