@@ -65,7 +65,7 @@ $right-column-size: 20em;
         section {
             display: grid;
             grid-column: 2;
-            grid-auto-columns: auto;
+            grid-auto-columns: auto auto;
             margin: .5em 0;
             padding: 0;
             border: none;
@@ -102,9 +102,13 @@ $right-column-size: 20em;
 
             ul {
                 display: block;
-                grid-area: 2 / 1;
+                grid-area: 2 / 1 / span 1 / span 2;
                 @include no-margin-padding();
                 padding-left: 2em;
+            }
+
+            address {
+                grid-area: 1 / 2;
             }
         }
     }
