@@ -83,6 +83,11 @@ article.post {
             }
         }
     }
+
+    /* This is a hack for when Jekyll generated empty paragraphs from new lines. */
+    p:empty {
+        display: none;
+    }
 }
 
 /* IE10+ specific styles go here */  

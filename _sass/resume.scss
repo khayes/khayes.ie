@@ -248,3 +248,62 @@ $right-column-size: 20em;
         }
     }
 }
+
+@media print {
+    #resume {
+        font-size: .8em;
+
+        header {
+            h1 {
+                text-shadow: none;
+            }
+
+            nav {
+                margin: 0;
+                padding: 0;
+
+                a {
+                    display: none;
+
+                    svg {
+                        display: none;
+                    }
+                }
+
+                a[href^="mailto"] {
+                    display: inline-block;
+                    height: 100%;
+
+                    span {
+                        display: inline;
+                        text-shadow: none;
+                        text-align: right;
+                        font-size: 1.5em;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+        section {
+            section {
+                grid-auto-columns: auto auto;
+            }
+        }
+
+        #experience, #education {
+            address {
+                display: block;
+                text-indent: unset;
+                overflow: unset;
+                white-space: unset;
+                text-align: right;
+            }
+        }
+
+        footer {
+            display: none;
+        }
+    }
+}
