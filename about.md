@@ -11,14 +11,14 @@ permalink: /about/
 </p>
 <p>
     Most notably I have created and maintained customer service applications & systems for <a href="https://www.blizzard.com/" target="_blank">Blizzard Entertainment</a> for AAA titles such as:<br />
-    <ul>
-        <li><a href="https://worldofwarcraft.com/" target="_blank">World of Warcraft</a></li>
-        <li><a href="https://playoverwatch.com/" target="_blank">Overwatch</a></li>
-        <li><a href="https://playhearthstone.com/" target="_blank">Hearthstone</a></li>
-        <li><a href="https://diablo3.com/" target="_blank">Diablo III</a></li>
-        <li><a href="https://starcraft2.com/" target="_blank">StarCraft II</a></li>
-    </ul>
 </p>
+<ul>
+    <li><a href="https://worldofwarcraft.com/" target="_blank">World of Warcraft</a></li>
+    <li><a href="https://playoverwatch.com/" target="_blank">Overwatch</a></li>
+    <li><a href="https://playhearthstone.com/" target="_blank">Hearthstone</a></li>
+    <li><a href="https://diablo3.com/" target="_blank">Diablo III</a></li>
+    <li><a href="https://starcraft2.com/" target="_blank">StarCraft II</a></li>
+</ul>
 
 <h3>Background</h3>
 <p>

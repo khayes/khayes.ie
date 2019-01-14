@@ -10,7 +10,7 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %} {{ page.title }} - {% endif %}Kieran Hayes</title>
@@ -20,8 +20,8 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
   <body>
     <header id="header">
       <hgroup>
-        <h1>Kieran Hayes</h1>
-        <h2 class="subtitle">Software Engineer</h2>
+        <h2>Kieran Hayes</h2>
+        <h3 class="subtitle">Software Engineer</h3>
       </hgroup>
       <nav class="icons">
         <a href="/blog/">
