@@ -9,6 +9,10 @@ permalink: /resume/
         <h1>Kieran Hayes</h1>
         <h5>Software Engineer</h5>
         <nav class="icons">
+            <a href="mailto:kieran@khayes.ie" title="Email" target="_blank">
+                <span>kieran@khayes.ie</span>
+                <svg><use xlink:href="{{ '/assets/icons.svg#mail' | relative_url }}"></use></svg>
+            </a>
             <a href="https://github.com/khayes/" title="GitHub" target="_blank">
                 <span>GitHub</span>
                 <svg><use xlink:href="{{ '/assets/icons.svg#github' | relative_url }}"></use></svg>
