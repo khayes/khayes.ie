@@ -19,3 +19,10 @@
         }
     }
 }
+
+/* IE10+ specific styles go here */  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #footer  {
+        padding: 0 $gutter-size;
+    }
+}
