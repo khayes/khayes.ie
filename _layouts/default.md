@@ -25,13 +25,13 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
       </hgroup>
       <nav class="icons">
         <a href="/blog/">
-          <svg><use xlink:href="{{ '/assets/icons.svg#blog' | relative_url }}"></use></svg> Blog
+          <img src="{{ '/assets/icons/blog.svg' | relative_url }}" /> Blog
         </a>
         <a href="/about/">
-          <svg><use xlink:href="{{ '/assets/icons.svg#about' | relative_url }}"></use></svg> About
+          <img src="{{ '/assets/icons/about.svg' | relative_url }}" /> About
         </a>
         <a href="/resume/">
-          <svg><use xlink:href="{{ '/assets/icons.svg#resume' | relative_url }}"></use></svg> Résumé
+          <img src="{{ '/assets/icons/resume.svg' | relative_url }}" /> Résumé
         </a>
       </nav>
       <div class="clear"><!-- Hack for IE layout as it does not support css grid. ---></div>
@@ -42,10 +42,10 @@ If you have any questions or suggestions please reach out to me at kieran@khayes
     <footer id="footer">
       <nav class="icons">
         <a href="https://github.com/khayes/" title="GitHub" target="_blank">
-          <svg><use xlink:href="{{ '/assets/icons.svg#github' | relative_url }}"></use></svg> GitHub
+          <img src="{{ '/assets/icons/github.svg' | relative_url }}" /> GitHub
         </a>
         <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank">
-          <svg><use xlink:href="{{ '/assets/icons.svg#linkedin' | relative_url }}"></use></svg> LinkedIn
+          <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" /> LinkedIn
         </a>
       </nav>
     </footer>

@@ -36,16 +36,13 @@ $right-column-size: 20em;
             a {
                 margin-left: 1em;
 
-                svg {
+                span {
+                    display: unset;
+                }
+
+                img {
                     width: 32px;
                     height: 32px;
-                    fill: $smooth-white;
-                }
-            }
-
-            a:hover {
-                svg {
-                    fill: $blue;
                 }
             }
         }
@@ -184,12 +181,6 @@ $right-column-size: 20em;
 
             nav {
                 float: right;
-
-                a {
-                    svg {
-                        display: none;
-                    }
-                }
             }
         }
 
@@ -265,7 +256,7 @@ $right-column-size: 20em;
                 a {
                     display: none;
 
-                    svg {
+                    img {
                         display: none;
                     }
                 }

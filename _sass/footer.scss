@@ -11,11 +11,11 @@
     display: grid;
     grid-template-columns: $gutter-size auto $gutter-size;
 
-    nav.icons  {
+    nav {
         grid-area: 1 / 2;
 
         a {
-            margin-right: 2em;
+            margin-right: 1em;
         }
     }
 }
