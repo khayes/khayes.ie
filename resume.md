@@ -34,6 +34,7 @@ permalink: /resume/
             <ul>
                 <li>Ensured GDPR compliance of customer support applications.</li>
                 <li>Led migration of applications to .NET Core & Docker.</li>
+                <li>On-call engineer ensuring 99.99% availability of applications.</li>
                 <li>Developed CI/CD tooling for MySQL databases.</li>
             </ul>
         </section>
@@ -65,7 +66,7 @@ permalink: /resume/
         <section>
             <hgroup>
                 <h5>Customer Support Representative</h5>
-                <h6>December 2007 - December 2012</h6>
+                <h6>December 2007 - November 2012</h6>
             </hgroup>
             <address class="blizzard-entertainment">Blizzard Entertainment, Blackpool, Co. Cork, Ireland</address>
             <ul>
