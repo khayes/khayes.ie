@@ -30,7 +30,7 @@ export default function AboutPage() {
       </p>
 
       <h3>Contact Me</h3>
-      <p>If you are interested in learning more about my skills or experience you can read my <Link to="/resume">résumé</Link>.<br />Or if you just want to get in touch directly you can email <a href="mailto:kieran@khayes.ie" rel="noreferrer">kieran@khayes.ie</a> or find me on <a href="https://github.com/khayes/" title="GitHub" className="github" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank" rel="noreferrer">LinkedIn</a>.<br /></p>
+      <p>If you are interested in learning more about my skills or experience you can read my <Link to="/resume">résumé</Link>.<br />Or if you just want to get in touch directly you can email <a href="mailto:kieran@khayes.ie" rel="noreferrer">kieran@khayes.ie</a> or find me on <a href="https://github.com/khayes/" title="GitHub" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://www.linkedin.com/in/kieran-hayes/" title="LinkedIn" target="_blank" rel="noreferrer">LinkedIn</a>.<br /></p>
       </DefaultLayout>
-         </React.Fragment>;
+    </React.Fragment>;
 }
