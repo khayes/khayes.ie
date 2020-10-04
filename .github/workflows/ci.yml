@@ -14,5 +14,5 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@v2
 
-      - name: Publish
-        run: yarn install
+      - name: Build
+        run: yarn install && npx gatsby build
