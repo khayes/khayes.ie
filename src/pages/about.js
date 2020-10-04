@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from 'gatsby'
-import DefaultLayout from '../components/layouts/default/layout'
+import DefaultLayout from '../layouts/default-layout'
 
 export default function AboutPage() {
   return <React.Fragment>
