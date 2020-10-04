@@ -18,7 +18,7 @@ jobs:
         run: yarn install && npx gatsby build
 
       - name: Deploy
-        if: ${{ github.ref != 'ref/head/master' }}
+        if: ${{ github.ref == 'ref/head/master' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
