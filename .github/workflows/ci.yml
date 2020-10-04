@@ -21,4 +21,5 @@ jobs:
         if: ${{ github.ref != 'ref/head/master' }}
         uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-branch: "github-pages"
