@@ -1,5 +1,6 @@
 import React from "react"
 import styles from './resume.module.scss'
+import SEO from '../components/seo'
 
 function Header() {
     return <header className={styles.header}>
@@ -143,6 +144,7 @@ function Footer() {
 
 export default function Resume() {
   return <React.Fragment >
+            <SEO title='Kieran Hayes Résumé' />
             <div className={styles.resume}>
             <article>
                 <Header />
