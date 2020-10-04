@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public"
+    "ci-deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "gatsby": "^2.24.67",

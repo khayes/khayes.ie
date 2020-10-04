@@ -19,7 +19,6 @@ jobs:
 
       - name: Deploy
         if: ${{ github.ref != 'ref/head/master' }}
-        run: |
-           git config user.name "$(git --no-pager log --format=format:'%an' -n 1)"
-           git config user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
-           npx gh-pages -d public
+        uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
