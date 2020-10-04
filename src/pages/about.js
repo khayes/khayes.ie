@@ -2,7 +2,7 @@ import React from "react"
 import {Link} from 'gatsby'
 import DefaultLayout from '../layouts/default-layout'
 
-export default function AboutPage() {
+export default function About() {
   return <React.Fragment>
     <DefaultLayout>
       <h1>About Me</h1>
