@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from './header.module.scss'
-import aboutImage from './about.svg'
-import resumeImage from './resume.svg'
 
 export default function Header() {
   return <header className={styles.header}>
@@ -11,11 +9,11 @@ export default function Header() {
         <h3>Senior Software Engineer</h3>
       </hgroup>
       <nav className={styles.icons}>
-          <Link to='/about'>
-            <img src={aboutImage} alt="About" /> About
+          <Link to={'/about'}>
+            <img src={'/images/about.svg'} alt="About" /> About
           </Link>
           <Link to='/resume'>
-                <img src={resumeImage} alt="Résumé" /> Résumé
+                <img src={'/images/resume.svg'} alt="Résumé" /> Résumé
           </Link>
       </nav>
 
