@@ -13,13 +13,10 @@ jobs:
     steps:
       - name: Git Checkout
         uses: actions/checkout@v2
-        run:  git config user.name github-actions && git config user.email github-actions@github.com
-        
+
       - name: Build
         run: yarn install && npx gatsby build
 
       - name: Deploy
         if: ${{ github.ref != 'ref/head/master' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn deploy
+        run: git config user.name github-actions && git config user.email github-actions@github.com && yarn deploy
