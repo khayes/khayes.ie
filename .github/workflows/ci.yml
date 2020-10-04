@@ -16,3 +16,7 @@ jobs:
 
       - name: Build
         run: yarn install && npx gatsby build
+
+      - name: Deploy
+        if: {{ github.ref != 'ref/head/master' }}
+        run: echo "fake deploy"
