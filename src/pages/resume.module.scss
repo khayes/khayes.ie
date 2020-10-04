@@ -1,14 +1,14 @@
-@import 'core';
+@import '../styles/core.scss';
 
 $left-column-size: 15em;
 $right-column-size: 20em;
 
-#resume {
+.resume {
     > article {
         margin: 1em 2em;
     }
 
-    header {
+    .header {
         display: grid;
         padding-bottom: 1em;
 
@@ -34,16 +34,30 @@ $right-column-size: 20em;
             justify-content: flex-end;
 
             a {
-                margin-left: 1em;
+                margin: 0 0 0 1em;
+                padding: .5em 0;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                border-radius: .25em;
+                color: white;
+                @include text-dropshadow();
 
                 span {
                     display: unset;
                 }
 
                 img {
+                    display: inline-block;
                     width: 32px;
                     height: 32px;
+                    margin: 0 .5em 0 0;
                 }
+            }
+
+            a:hover {
+                text-decoration: underline;
+                text-shadow: none;
             }
         }
     }
@@ -112,7 +126,7 @@ $right-column-size: 20em;
         }
     }
 
-    section#skills {
+    .skills {
         ul {
             grid-column: 2;
             -moz-column-count: 3;
@@ -121,7 +135,7 @@ $right-column-size: 20em;
         }
     }
 
-    section#honors {
+    .honors {
         ul {
             grid-column: 2;
             display: block;
@@ -146,7 +160,7 @@ $right-column-size: 20em;
         }
     }
 
-    #experience, #education {
+    .experience, .education {
         address {
             display: block;
             background-repeat: no-repeat;
@@ -156,19 +170,19 @@ $right-column-size: 20em;
             overflow: hidden;
             white-space: nowrap;
         }
-
-        address.blizzard-entertainment {
-            background-image: url("/assets/Blizzard_Entertainment_Logo.svg");
-        }
-
-        address.btech {
-            background-image: url("/assets/btech_logo_inverted.png");
-        }
     }
 
-    footer {
+    .footer {
         margin-top: 1em;
     }
+}
+
+.blizzard-entertainment {
+    background-image: url(/images/Blizzard_Entertainment_Logo.svg);
+}
+
+.btech {
+    background-image: url(/images/btech_logo_inverted.png);
 }
 
 
